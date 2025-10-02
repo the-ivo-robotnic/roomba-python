@@ -1,0 +1,22 @@
+[project]
+name = "roomba-python"
+description = 'Python program and library to control iRobot WiFi Roomba Vacuum Cleaner'
+authors = [{ name = "Nick Waterton", email = "n.waterton@outlook.com" }]
+version = "2.1.0"
+requires-python = ">=3.6"
+dependencies = [
+    "numpy>=1.12.1",
+    "opencv-python>=3.2.0.7",
+    "paho-mqtt>=1.5.1",
+    "Pillow>=6.2.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=25.9.0",
+    "ipdb>=0.13.13"
+]
+
+[project.scripts]
+roomba = "roomba.__main__:main"
+roomba-getpassword = "roomba.getpassword:main"

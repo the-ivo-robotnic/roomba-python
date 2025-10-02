@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # Copyright 2021 Matthew Garrett <mjg59@srcf.ucam.org>
 #
 # Portions Copyright 2010-2019 Amazon.com, Inc. or its affiliates. All

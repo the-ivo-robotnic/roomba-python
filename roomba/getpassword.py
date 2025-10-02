@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 __version__ = "2.0"
 '''
 Python 3.6
